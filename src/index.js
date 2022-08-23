@@ -56,12 +56,4 @@ function renderContent(countries) {
   renderCountry(countries[0]);
 }
 
-function clearContent() {
-  if (countryList.children.length > 0) {
-    countryList.innerHTML = '';
-  }
 
-  if (countryInfo.children.length > 0) {
-    countryInfo.innerHTML = '';
-  }
-}
