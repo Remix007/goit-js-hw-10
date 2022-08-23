@@ -18,3 +18,28 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+.country {
+  display: flex;
+  align-items: center;
+
+  font-size: 28px;
+  font-weight: 500;
+  font-family: 'Times New Roman', Times, serif;
+
+  height: 50px;
+}
+.style {
+  display: flex;
+  align-items: center;
+}
+.name_country {
+  font-size: 44px;
+  font-weight: 700;
+  font-family: 'Times New Roman', Times, serif;
+}
+.flag_country {
+  margin-right: 10px;
+}
+.flag {
+  margin-right: 10px;
+}
